@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/city.css">
+    <script type="text/javascript" src="js/iscroll.js"></script>
+    <!--<script type="text/javascript">
+        var myScroll;
+
+        function loaded() {
+            myScroll = new IScroll('#wrapper', {
+                scrollbars: true,
+                mouseWheel: true,
+                interactiveScrollbars: true,
+                shrinkScrollbars: 'scale',
+                fadeScrollbars: true
+            });
+        }
+
+        document.addEventListener('touchmove', function (e) {
+            e.preventDefault();
+        }, false);
+    </script>-->
+
+</head>
+
+<body onload="loaded()">
+    <div class="wrapper">
+        <header>
+            <h1>更换城市</h1>
+            <span>×</span>
+        </header>
+        <div class="search">
+            <img src="img(2)/seach.png" alt="">
+            <input type="text" placeholder="找影院">
+        </div>
+        <div class="pos">
+            <span class="pos-big">北京</span>
+            <span class="pos-small">当前定位城市</span>
+        </div>
+        <div id="wrapper">
+            <div id="scroller">
+                <div class="hot-city" id="hot-city">
+                    <h2>热门</h2>
+                    <ul>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                    </ul>
+                </div>
+                <div id="list-city" class="hot-city">
+                    <h2>A</h2>
+                    <ul>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span></li>
+
+                    </ul>
+                    <div class="clear"></div>
+                    <h2>A</h2>
+                    <ul>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span></li>
+
+                    </ul>
+                    <div class="clear"></div>
+                    <h2>A</h2>
+                    <ul>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span></li>
+
+                    </ul>
+                    <div class="clear"></div>
+                    <h2>A</h2>
+                    <ul>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span></li>
+
+                    </ul>
+                    <div class="clear"></div>
+                    <h2>A</h2>
+                    <ul>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span></li>
+
+                    </ul>
+                    <div class="clear"></div>
+                    <h2>A</h2>
+                    <ul>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span></li>
+
+                    </ul>
+                    <div class="clear"></div>
+                    <h2>A</h2>
+                    <ul>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span><span>深圳</span></li>
+                        <li><span>北京</span><span>上海</span><span>广州</span></li>
+
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
